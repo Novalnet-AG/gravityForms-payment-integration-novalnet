@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Novalnet payment plugin - Gravity Forms and 2.0.0\n"
+"POT-Creation-Date: 2019-05-09 16:36+0530\n"
+"PO-Revision-Date: 2019-05-09 16:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: NOVALNET AG <sales@novalnet.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:309
+msgid "Dear client,"
+msgstr "Sehr geehrte Kundin,"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:310
+#, php-format
+msgid ""
+"We would like to inform you that test order (%s) has been placed in your "
+"shop recently. Please make sure your project is in LIVE mode at Novalnet "
+"administration portal and Novalnet payments are enabled in your shop system. "
+"Please ignore this email if the order has been placed by you for testing "
+"purpose."
+msgstr ""
+"sehr geehrter Kunde, wir möchten Sie darüber informieren, dass eine "
+"Testbestellung (%s) kürzlich in Ihrem Shop durchgeführt wurde. Stellen Sie "
+"bitte sicher, dass für Ihr Projekt im Novalnet-Administrationsportal der "
+"Live-Modus gesetzt wurde und Zahlungen über Novalnet in Ihrem Shopsystem "
+"aktiviert sind. Ignorieren Sie bitte diese E-Mail, falls die Bestellung von "
+"Ihnen zu Testzwecken durchgeführt wurde."
+
+#: gravityforms-novalnet/class-gf-novalnet.php:311
+msgid "Regards"
+msgstr "Mit freundlichen Grüßen"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:312
+msgid "Novalnet AG"
+msgstr "Novalnet AG"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:525
+msgid "Last Name"
+msgstr "Nachname"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:528
+msgid "First Name"
+msgstr "Vorname"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:546
+msgid "Novalnet Transaction Notes"
+msgstr "Novalnet-Transaktions Anmerkung"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:596
+msgid "Payment Method:"
+msgstr "Zahlungsart:"
+
+#: gravityforms-novalnet/class-gf-novalnet.php:604
+msgid "Novalnet Transaction Details:"
+msgstr "Novalnet-Transaktionsdetails:"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:432
+#, php-format
+msgid ""
+"Novalnet Callback Script executed successfully for the TID: %1$s with amount "
+"%2$s on %3$s."
+msgstr ""
+"Novalnet-Callback-Skript erfolgreich ausgeführt für die TID: %1$s mit dem "
+"Betrag am %2$s, um %3$s Uhr."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:462
+#, php-format
+msgid ""
+"Novalnet callback received. The transaction status has been changed from "
+"pending to on hold for the TID: %1$s on %2$s."
+msgstr ""
+"Novalnet-Callback-Nachricht erhalten: Der Status der Transaktion mit der "
+"TID: %1$s> wurde am %2$s  um  von ausstehend auf ausgesetzt geändert."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:526
+#, php-format
+msgid ""
+"Novalnet callback received. Refund/Bookback executed successfully for the "
+"TID: %1$s amount: %2$s on %3$s. The subsequent TID: %4$s."
+msgstr ""
+"Novalnet-Callback-Meldung erhalten: Rückerstattung / Bookback erfolgreich "
+"ausgeführt für die TID:  %1$s: Betrag: %2$s am %3$s. TID der Folgebuchung: "
+"%4$s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:529
+#, php-format
+msgid ""
+"Novalnet callback received. Chargeback executed successfully for the TID: "
+"%1$s amount: %2$s on %3$s. The subsequent TID: %4$s."
+msgstr ""
+"Novalnet-Callback-Nachricht erhalten: Chargeback erfolgreich importiert für "
+"die TID: %1$s Betrag:  %2$s am %3$s. TID der Folgebuchung: %4$s."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:558
+#, php-format
+msgid ""
+"Novalnet Callback Script executed successfully for the TID: %1$s with amount "
+"%2$s on %3$s. Please refer PAID transaction in our Novalnet Merchant "
+"Administration with the TID: %4$s. "
+msgstr ""
+"Novalnet-Callback-Skript erfolgreich ausgeführt für die TID:  %1$s mit dem "
+"Betrag %2$s am , um  %3$s Uhr. Bitte suchen Sie nach der bezahlten "
+"Transaktion in unserer Novalnet-Händleradministration mit der TID:  %4$s."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:573
+#, php-format
+msgid ""
+"The amount of %1$s for the order %2$s has been paid. Please verify received "
+"amount and TID details, and update the order status accordingly."
+msgstr ""
+"Der Betrag von %1$s für die Bestellung %2$s wurde bezahlt. Überprüfen Sie "
+"bitten den erhaltenen Betrag und die Details zur TID und aktualisieren Sie "
+"den Status der Bestellung entsprechend."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:648
+#, php-format
+msgid ""
+"Novalnet Callback Script executed successfully for the TID: %1$s with amount "
+"%2$s on %3$s. Please refer PAID transaction in our Novalnet Merchant "
+"Administration with the TID: %4$s"
+msgstr ""
+"Novalnet-Callback-Skript erfolgreich ausgeführt für die TID:  %1$s mit dem "
+"Betrag %2$s am , um %3$s Uhr. Bitte suchen Sie nach der bezahlten "
+"Transaktion in unserer Novalnet-Händleradministration mit der TID: %4$s."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:683
+#, php-format
+msgid "Novalnet callback received. The transaction has been canceled on %s."
+msgstr ""
+"Novalnet-Callback-Nachricht erhalten: Die Transaktion wurde am %1$s Uhr "
+"storniert"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:818
+msgid "We are pleased to inform you that your order has been confirmed."
+msgstr ""
+"Wir freuen uns Ihnen mitteilen zu können, dass Ihre Bestellung bestätigt "
+"wurde."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-callback.php:821
+#, php-format
+msgid "Order Confirmation - Your Order %1$s with %2$s_name has been confirmed!"
+msgstr "Bestellbestätigung – Ihre Bestellung %1$s bei  %2$s wurde bestätigt!"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:39
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:68
+#, php-format
+msgid ""
+"You need to configure your outgoing server IP address ( %s ) at Novalnet. "
+"Please configure it in Novalnet admin portal or contact technic@novalnet.de"
+msgstr ""
+"Sie müssen die IP-Adresse Ihres Outgoing-Servers (%s) bei Novalnet "
+"hinterlegen. Bitte hinterlegen Sie diese im Novalnet-Administrationsportal "
+"oder kontaktieren Sie uns unter technic@novalnet.de."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:74
+msgid "Please fill mandatory details"
+msgstr "Füllen Sie bitte alle Pflichtfelder aus"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:105
+msgid "Novalnet Global Configuration"
+msgstr "Novalnet Haupteinstellungen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:106
+#, php-format
+msgid ""
+"For additional configurations login to %sNovalnet administration portal%s. "
+"To login to the Portal you need to have an account at Novalnet. If you don't "
+"have one yet, please contact %ssales@novalnet.de%s / tel. +49 (089) 923068320"
+msgstr ""
+"Um zusätzliche Einstellungen vorzunehmen, loggen Sie sich in das  %sNovalnet-"
+"Administrationsportal%s ein. Um sich in das Portal einzuloggen, benötigen "
+"Sie einen Account bei Novalnet. Falls Sie diesen noch nicht haben, "
+"kontaktieren Sie bitte  %ssales@novalnet.de %s (Tel: +49 (089) 923068320)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:111
+msgid ""
+"The payment will be processed in the test mode therefore amount for this "
+"transaction will not be charged."
+msgstr ""
+"Die Zahlung wird im Testmodus durchgeführt, daher wird der Betrag für diese "
+"Transaktion nicht eingezogen."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:112
+msgid "Enable test mode"
+msgstr "Testmodus aktivieren"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:124
+msgid ""
+"<small>To get the Product Activation Key, go to <a href=\"https://admin."
+"novalnet.de/\" target=\"blank\">Novalnet administration portal</a> - "
+"<strong>PROJECTS</strong>: Project Information - <strong>Shop Parameters</"
+"strong>: <strong>API Signature (Product activation key)</strong></small>."
+msgstr ""
+"<small>Um diesen Aktivierungschlüssel für das Produkt zu erhalten, gehen Sie "
+"zum  <a href=\"https://admin.novalnet.de/\" target=\"blank\">Novalnet-Admin-"
+"Portal</a> - <strong>Projekte</strong>: Informationen <strong>zum jeweiligen "
+"Projekt - Parameter Ihres Shops</strong>: <strong>API Signature "
+"(Aktivierungsschlüssel des Produkts)</strong></small>."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:125
+msgid "Enter Novalnet Product activation key"
+msgstr "Novalnet-Aktivierungsschlüssel für das Produkt eingeben"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:126
+msgid "Product activation key"
+msgstr "Aktivierungsschlüssel des Produkts"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:134
+msgid "Enter Novalnet merchant ID"
+msgstr "Geben Sie Ihre Novalnet-Händler-ID ein."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:135
+msgid "Merchant ID"
+msgstr "Händler-ID"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:143
+msgid "Enter Novalnet authentication code."
+msgstr "Geben Sie Ihren Novalnet-Authentifizierungscode ein."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:144
+msgid "Authentication code"
+msgstr "Authentifizierungscode"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:152
+msgid "Enter Novalnet project ID."
+msgstr "Geben Sie Ihre Novalnet-Projekt-ID ein."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:153
+msgid "Project ID"
+msgstr "Project ID"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:161
+msgid "Select Novalnet tariff ID."
+msgstr "Novalnet-Tarif-ID auswählen."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:162
+msgid "Tariff ID"
+msgstr "Tarif-ID"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:169
+msgid "Enter the Novalnet payment access key."
+msgstr "Geben Sie den Novalnet-Zahlungs-Zugriffsschlüssel ein."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:170
+msgid "Payment Access Key"
+msgstr "Zahlungs-Zugriffsschlüssel"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:178
+msgid ""
+"Enter the referrer ID of the person/company who recommended you Novalnet."
+msgstr ""
+"Geben Sie die Partner-ID der Person / des Unternehmens ein, welche / welches "
+"Ihnen Novalnet empfohlen hat."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:179
+msgid "Referrer ID"
+msgstr "Partner-ID"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:187
+msgid "On-hold Payment Action"
+msgstr "Durchführung einer ausgesetzten Zahlung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:194
+msgid "Capture"
+msgstr "Zahlung einziehen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:198
+msgid "Authorize"
+msgstr "Zahlung autorisieren"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:205
+msgid "(in minimum unit of currency. E.g. enter 100 which is equal to 1.00)"
+msgstr ""
+"(in der kleinsten Währungseinheit, z.B. 100 Cent = entsprechen 1.00 EUR)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:206
+msgid ""
+"In case the order amount exceeds mentioned limit, the transaction will be "
+"set on hold till your confirmation of transaction"
+msgstr ""
+"Falls der Bestellbetrag das angegebene Limit übersteigt, wird die "
+"Transaktion ausgesetzt, bis Sie diese selbst bestätigen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:207
+msgid "Set a limit for on-hold transaction"
+msgstr "Limit für onhold-Buchungen setzen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:218
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:864
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:222
+msgid ""
+"The 3D-Secure will be activated for credit cards. The issuing bank prompts "
+"the buyer for a password what, in turn, help to prevent a fraudulent "
+"payment. It can be used by the issuing bank as evidence that the buyer is "
+"indeed their card holder. This is intended to help decrease a risk of charge-"
+"back."
+msgstr ""
+"3D-Secure wird für Kreditkarten aktiviert. Die kartenausgebende Bank fragt "
+"vom Käufer ein Passwort ab, welches helfen soll, betrügerische Zahlungen zu "
+"verhindern. Dies kann von der kartenausgebenden Bank als Beweis verwendet "
+"werden, dass der Käufer tatsächlich der Inhaber der Kreditkarte ist. Damit "
+"soll das Risiko von Chargebacks verringert werden."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:223
+msgid "Enable 3D secure"
+msgstr "3D-Secure aktivieren"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:236
+msgid "Direct Debit Sepa"
+msgstr "Lastschrift SEPA"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:240
+msgid ""
+" Enter the number of days after which the payment should be processed (must "
+"be between 2 and 14 days)"
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, nach denen die Zahlung vorgenommen werden "
+"soll (muss zwischen 2 und 14 Tagen liegen)."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:241
+msgid "SEPA payment duration (in days)"
+msgstr "Abstand (in Tagen) bis zum SEPA-Einzugsdatum"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:249
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:878
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:880
+msgid "Invoice"
+msgstr "Kauf auf Rechnung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:253
+msgid ""
+"Enter the number of days to transfer the payment amount to Novalnet (must be "
+"greater than 7 days). In case if the field is empty, 14 days will be set as "
+"due date by default"
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, binnen derer die Zahlung bei Novalnet "
+"eingehen soll (muss größer als 7 Tage sein). Falls dieses Feld leer ist, "
+"werden 14 Tage als Standard-Zahlungsfrist gesetzt"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:254
+msgid "Payment due date (in days)"
+msgstr "Fälligkeitsdatum (in Tagen)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:262
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:871
+msgid "Barzahlen"
+msgstr "Barzahlen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:266
+msgid ""
+"Enter the number of days to pay the amount at store near you. If the field "
+"is empty, 14 days will be set as default."
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, um den Betrag in einer Barzahlen-"
+"Partnerfiliale in Ihrer Nähe zu bezahlen. Wenn das Feld leer ist, werden "
+"standardmäßig 14 Tage als Fälligkeitsdatum gesetzt."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:267
+msgid "Slip expiry date (in days)"
+msgstr "Verfallsdatum des Zahlscheins (in Tagen)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:275
+msgid "Order status management"
+msgstr "Verwaltung des Bestellstatus"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:280
+msgid "Order completion status"
+msgstr "Abschluss-Status der Bestellung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:289
+msgid "Onhold order status"
+msgstr "On-hold-Bestellstatus"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:298
+msgid "Order status for the pending payment"
+msgstr "Bestellstatus der ausstehenden Zahlung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:307
+msgid "Callback order status"
+msgstr "Callback-Bestellstatus"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:316
+msgid "Cancellation order status"
+msgstr "Bestellstatus für Stornierung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:325
+msgid "Merchant script management"
+msgstr "Verwaltung des Händlerskripts"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:330
+msgid "Deactivate IP address control (for test purpose only)"
+msgstr "Deaktivieren Sie die IP-Adresskontrolle (nur zu Testzwecken)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:342
+msgid "Enable E-mail notification for callback"
+msgstr "Email-Benachrichtigung für Callback aktivieren"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:353
+msgid "E-mail address of the recipient"
+msgstr "Emailadresse des Empfängers"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:355
+msgid "E-mail address (To)"
+msgstr "Emailadresse (An)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:361
+msgid "E-mail address of the recipient for BCC"
+msgstr "Emailadresse des Empfängers für Bcc"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:362
+msgid "E-mail address (Bcc)"
+msgstr "Emailadresse (Bcc)"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:368
+msgid ""
+"The notification URL is used to keep your database/system actual and "
+"synchronizes with the Novalnet transaction status."
+msgstr ""
+"Der URL für Benachrichtigungen dient dazu, Ihre Datenbank / Ihr System auf "
+"einem aktuellen Stand zu halten und den Novalnet-Transaktionsstatus "
+"abzugleichen."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:369
+msgid "Notification URL"
+msgstr "URL für Benachrichtigungen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:413
+msgid "Authorized"
+msgstr "Zahlung autorisieren"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:414
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:415
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:416
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:417
+msgid "Active"
+msgstr "Aktiv"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:418
+msgid "Cancelled"
+msgstr "Storniert"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:419
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:420
+msgid "Refunded"
+msgstr "Erstattet"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-configuration.php:421
+msgid "Voided"
+msgstr "Entleert"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:586
+msgid "This is processed as a guarantee payment"
+msgstr "Diese Transaktion wird mit Zahlungsgarantie verarbeitet"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:590
+#, php-format
+msgid "Payment Method: %s"
+msgstr "Zahlungsart: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:591
+#, php-format
+msgid "Novalnet transaction ID: %s"
+msgstr "Novalnet Transaktions-ID: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:593
+msgid "Test order"
+msgstr "Testbestellung"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:606
+#, php-format
+msgid "<br/>Slip expiry date: %s"
+msgstr "<br/>Verfallsdatum des Zahlscheins: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:609
+msgid "Store(s) near you"
+msgstr "Barzahlen-Partnerfiliale in Ihrer Nähe"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:625
+msgid ""
+"Your order is under verification and we will soon update you with the order "
+"status. Please note that this may take upto 24 hours."
+msgstr ""
+"Ihre Bestellung wird derzeit überprüft. Wir werden Sie in Kürze über den "
+"Bestellstatus informieren. Bitte beachten Sie, dass dies bis zu 24 Stunden "
+"dauern kann."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:681
+msgid "Payment was not successful. An error occurred"
+msgstr "Die Zahlung war nicht erfolgreich. Ein Fehler trat auf"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:739
+msgid ""
+"Your order is under verification and once confirmed, we will send you our "
+"bank details to where the order amount should be transferred. Please note "
+"that this may take upto 24 hours"
+msgstr ""
+"Ihre Bestellung ist unter Bearbeitung. Sobald diese bestätigt wurde, "
+"erhalten Sie alle notwendigen Informationen zum Ausgleich der Rechnung. Wir "
+"bitten Sie zu beachten, dass dieser Vorgang bis zu 24 Stunden andauern kann."
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:745
+msgid ""
+"Please transfer the amount to the below mentioned account details of our "
+"payment processor Novalnet"
+msgstr ""
+"Überweisen Sie bitte den Betrag an die unten aufgeführte Bankverbindung "
+"unseres Zahlungsdienstleisters Novalnet"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:749
+#, php-format
+msgid "Due date: %s"
+msgstr "Fälligkeitsdatum: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:751
+#, php-format
+msgid "Account holder: %s"
+msgstr "Kontoinhaber: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:753
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:755
+#, php-format
+msgid "Bank: %s"
+msgstr "Bank: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:757
+#, php-format
+msgid "IBAN: %s"
+msgstr "IBAN: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:759
+#, php-format
+msgid "BIC: %s"
+msgstr "BIC: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:761
+#, php-format
+msgid "Amount: %s"
+msgstr "Betrag: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:771
+msgid ""
+"Please use the following payment reference for your money transfer, as only "
+"through this way your payment is matched and assigned to the order: "
+msgstr ""
+"Bitte verwenden Sie nur den unten angegebenen Verwendungszweck für die "
+"Überweisung, da nur so Ihr Geldeingang zugeordnet werden kann:"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:773
+#, php-format
+msgid "Payment Reference 1: %s"
+msgstr "Verwendungszweck 1: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:775
+#, php-format
+msgid "Payment Reference 2: %s"
+msgstr "Verwendungszweck 2: %s"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:865
+msgid "Instant Bank Transfer"
+msgstr "Sofort"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:866
+msgid "PayPal"
+msgstr "PayPal"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:867
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:868
+msgid "giropay"
+msgstr "giropay"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:869
+msgid "eps"
+msgstr "eps"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:870
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:876
+msgid "Prepayment"
+msgstr "Vorauskasse"
+
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:883
+#: gravityforms-novalnet/includes/class-gf-novalnet-helper.php:887
+msgid "Direct Debit SEPA"
+msgstr "Lastschrift SEPA"
+
+#~ msgid ""
+#~ "You will receive email notifications about every test order in the web "
+#~ "shop."
+#~ msgstr ""
+#~ "Sie erhalten ab jetzt E-Mail-Benachrichtigungen zu jeder Testbestellung "
+#~ "im Webshop"
+
+#~ msgid "Enable E-mail notification for test transaction"
+#~ msgstr "E-Mail-Benachrichtigung für Testbuchungen aktivieren"
+
+#~ msgid ""
+#~ "Dear client, We would like to inform you that test order (%s) has been "
+#~ "placed in your shop recently. Please make sure your project is in LIVE "
+#~ "mode at Novalnet administration portal and Novalnet payments are enabled "
+#~ "in your shop system. Please ignore this email if the order has been "
+#~ "placed by you for testing purpose. Regards, Novalnet AG"
+#~ msgstr ""
+#~ "Sehr geehrte Kundin, sehr geehrter Kunde, wir möchten Sie darüber "
+#~ "informieren, dass eine Testbestellung (%s) kürzlich in Ihrem Shop "
+#~ "durchgeführt wurde. Stellen Sie bitte sicher, dass für Ihr Projekt im "
+#~ "Novalnet-Administrationsportal der Live-Modus gesetzt wurde und Zahlungen "
+#~ "über Novalnet in Ihrem Shopsystem aktiviert sind. Ignorieren Sie bitte "
+#~ "diese E-Mail, falls die Bestellung von Ihnen zu Testzwecken durchgeführt "
+#~ "wurde. Mit freundlichen Grüßen Novalnet AG"
+
+#~ msgid ""
+#~ "Enter the number of days after which the payment should be processed "
+#~ "(must be greater than 6 days)"
+#~ msgstr ""
+#~ "Geben Sie die Anzahl der Tage ein, nach denen die Zahlung verarbeitet "
+#~ "werden soll (muss größer als 6 Tage sein)"
+
+#~ msgid "Payment Configuration"
+#~ msgstr "Zahlungseinstellungen"
+
+#~ msgid "Capture/ Authorize"
+#~ msgstr "Zahlung einziehen/Zahlung autorisieren"
+
+#~ msgid "Order status management for on-hold transaction(-s)"
+#~ msgstr "Verwaltung des Bestellstatus für ausgesetzte Zahlungen"
+
+#~ msgid "Payment status for the pending payment"
+#~ msgstr "Status für ausstehende Zahlungen"
+
+#~ msgid "Slip expiry date: %s"
+#~ msgstr "Verfallsdatum des Zahlscheins: %s"
+
+#~ msgid ""
+#~ "To get the Product Activation Key, go to <a href=\"https://admin.novalnet."
+#~ "de\" target=\"blank\">Novalnet admin portal</a> - <strong>PROJECTS</"
+#~ "strong>: Project Information - <strong>Shop Parameters</strong>: "
+#~ "<strong>API Signature (Product activation key)</strong>."
+#~ msgstr ""
+#~ " Um diesen Aktivierungschlüssel für das Produkt zu erhalten, gehen Sie "
+#~ "zum <a href=\"https://admin.novalnet.de\" target=\"blank\">Novalnet-Admin-"
+#~ "Portal</a> - <strong>Projekte</strong>: Informationen zum jeweiligen "
+#~ "Projekt - <strong>Parameter Ihres Shops</strong>: <strong>API Signature "
+#~ "(Aktivierungsschlüssel des Produkts)<strong>."
+
+#~ msgid "Enter Novalnet tariff ID."
+#~ msgstr "Geben Sie Ihre Novalnet-Tarif-ID ein."
+
+#~ msgid "Payment Configurations"
+#~ msgstr "Zahlungseinstellungen"
+
+#~ msgid "Order Completion Status"
+#~ msgstr "Abschluss-Status der Bestellung"
+
+#~ msgid "Callback Order Status"
+#~ msgstr "Callback-Bestellstatus"
