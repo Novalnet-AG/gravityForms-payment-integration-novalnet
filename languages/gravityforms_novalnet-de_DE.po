@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GravityForms-NovalnetGateway.1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-22 13:26+0530\n"
+"PO-Revision-Date: 2015-05-22 13:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: Novalnet Team <test@novalnet.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_;gettext;gettext_noop;__;_e;"
+"__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /var/www/dev/GravityForms-NovalnetGateway\n"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/GravityForms-NovalnetGateway.php:30
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:63
+msgid "Novalnet AG"
+msgstr "Novalnet AG"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:73
+msgid "Enable payment method"
+msgstr "Zahlungsart aktivieren"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:76
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:88
+msgid "Yes"
+msgstr "Ja"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:79
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:91
+msgid "No"
+msgstr "Nicht"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:85
+msgid "Enable test mode"
+msgstr "Testmodus aktivieren"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:93
+msgid ""
+"The payment will be processed in the test mode therefore amount for this "
+"transaction will not be charged"
+msgstr ""
+"Die Zahlung wird im Testmodus durchgeführt, daher wird der Betrag für diese "
+"Transaktion nicht eingezogen."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:97
+msgid "Merchant ID"
+msgstr "Händler-ID"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:101
+msgid "Enter Novalnet merchant ID"
+msgstr "Geben Sie Ihre Novalnet-Händler-ID ein."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:105
+msgid "Authentication code"
+msgstr "Authentifizierungscode"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:109
+msgid "Enter Novalnet authentication code"
+msgstr "Geben Sie Ihren Novalnet-Authentifizierungscode ein."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:113
+msgid "Project ID"
+msgstr "Projekt-ID"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:117
+msgid "Enter Novalnet project ID"
+msgstr "Geben Sie Ihre Novalnet-Projekt-ID ein."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:121
+msgid "Tariff ID"
+msgstr "Tarif-ID"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:125
+msgid "Enter Novalnet tariff ID"
+msgstr "Geben Sie Ihre Novalnet-Tarif-ID ein."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:129
+msgid "Payment due date (in days)"
+msgstr "Fälligkeitsdatum (in Tagen)"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:133
+msgid ""
+"Enter the number of days to transfer the payment amount to Novalnet (must be "
+"greater than 7 days). In case if the field is empty, 14 days will be set as "
+"due date by default"
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, binnen derer die Zahlung bei Novalnet "
+"eingehen soll (muss größer als 7 Tage sein). Falls dieses Feld leer ist, "
+"werden 14 Tage als Standard-Zahlungsfrist gesetzt"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:137
+msgid "Order completion status"
+msgstr "Abschluss-Status der Bestellung"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:140
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:153
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:166
+msgid "Pending"
+msgstr "Offen"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:141
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:154
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:167
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:142
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:155
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:168
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:143
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:156
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:169
+msgid "Processing"
+msgstr "Bearbeitung"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:150
+msgid "Callback order status"
+msgstr "Callback-Bestellstatus"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:163
+msgid "Cancel status"
+msgstr "Abbrechen status"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:176
+msgid "Referrer ID"
+msgstr "Partner-ID"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:180
+msgid ""
+"Enter the referrer ID of the person/company who recommended you Novalnet"
+msgstr ""
+"Geben Sie die Partner-ID der Person / des Unternehmens ein, welche / welches "
+"Ihnen Novalnet empfohlen hat."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:184
+msgid "Transaction reference 1"
+msgstr "1. Referenz zur Transaktion"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:188
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:196
+msgid "This reference will appear in your bank account statement"
+msgstr "Diese Referenz wird auf Ihrem Kontoauszug erscheinen."
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:192
+msgid "Transaction reference 2"
+msgstr "2. Referenz zur Transaktion"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:200
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:204
+msgid "Updated"
+msgstr "Geändert"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:205
+msgid "Please fill in all the mandatory fields"
+msgstr "Füllen Sie bitte alle Pflichtfelder aus"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:255
+msgid "Order status : "
+msgstr "Bestellstatus :"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:256
+msgid "Novalnet transaction ID : "
+msgstr "Novalnet-Transaktions-ID : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:257
+msgid "Test order"
+msgstr "Testbestellung"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:261
+msgid "Payment method : "
+msgstr "Zahlungsart : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:263
+msgid ""
+"Please transfer the amount to the below mentioned account details of our "
+"payment processor Novalnet"
+msgstr ""
+"Überweisen Sie bitte den Betrag an die unten aufgeführte Bankverbindung "
+"unseres Zahlungsdienstleisters Novalnet"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:264
+msgid "Account holder :"
+msgstr "Kontoinhaber : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:264
+msgid "NOVALNET AG"
+msgstr "NOVALNET AG"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:265
+msgid "Due date : "
+msgstr "Fälligkeitsdatum : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:266
+msgid "IBAN : "
+msgstr "IBAN : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:267
+msgid "BIC : "
+msgstr "IBAN : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:268
+msgid "Bank : "
+msgstr "Bank : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:269
+msgid "Amount : "
+msgstr "Betrag : "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:270
+msgid "Reference 1 : TID "
+msgstr "1. Verwendungszweck : TID"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:271
+msgid "Reference 2 : BNR-"
+msgstr "1. Verwendungszweck : BNR- "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:272
+msgid "Reference 3 : Order number "
+msgstr "3. Verwendungszweck : Bestellnummer "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:288
+msgid "Thank you for choosing Novalnet payment"
+msgstr "Danke, dass Sie sich für eine Zahlung über Novalnet entschieden haben"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:292
+msgid "Pay via Novalnet"
+msgstr "Über Novalnet bezahlen"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:473
+msgid "Order number : "
+msgstr "Bestellnummer :"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:473
+msgid ""
+"Unfortunately, this order could not be processed. Please, place a new order "
+msgstr ""
+"konnte diese Bestellung nicht verarbeitet werden. Bitte geben Sie eine neue "
+"Bestellung auf. "
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:639
+msgid "Novalnet Credit card"
+msgstr "Novalnet Kreditkarte"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:640
+msgid "Novalnet Direct Debit SEPA"
+msgstr "Novalnet Lastschrift SEPA"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:641
+msgid "Novalnet Invoice"
+msgstr "Novalnet Kauf auf Rechnung"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:641
+msgid "Novalnet Prepayment"
+msgstr "Novalnet Vorauskasse"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:642
+msgid "Novalnet PayPal"
+msgstr "Novalnet PayPal"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:643
+msgid "Novalnet iDEAL"
+msgstr "Novalnet iDEAL"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:644
+msgid "Novalnet EPS"
+msgstr "Novalnet EPS"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:645
+msgid "Novalnet Insatnt Bank Transfer"
+msgstr "Novalnet Sofortüberweisung"
+
+#: /var/www/dev/GravityForms-NovalnetGateway/class/class-novalnet-interface.php:647
+msgid "Novalnet Invoice / Prepayment"
+msgstr "Novalnet Kauf auf Rechnung / Vorauskasse"
+
+#~ msgid "Novalnet Gateway"
+#~ msgstr "Novalnet Gateway"
+
+#~ msgid "updated"
+#~ msgstr "Updated"
+
+#~ msgid "Order Status Before Payment"
+#~ msgstr "Bestellstatus vor der Zahlung"
+
+#~ msgid "You will be redirected to Novalnet AG in a few seconds.<br />"
+#~ msgstr ""
+#~ "Sie werden in wenigen Sekunden zur Novalnet AG weitergeleitet.<br />"
+
+#~ msgid "Continue"
+#~ msgstr "fortsetzen"
