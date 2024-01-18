@@ -2,7 +2,7 @@
 Novalnet’s <a href="https://www.novalnet.com/modul/gravity-forms">Gravity Forms payment plugin</a> for WordPress simplifies your daily work by automating the entire payment process, from checkout till collection. This payment module is designed to help you increase sales by offering various payment methods on a one-page checkout.
 
 ## Gravity Forms Plugin Integration Requirements
-<a href="https://www.novalnet.de/">Novalnet</a> merchant account is required for processing all international and local payments through this Gravity Forms payment plugin for WordPress. The plugin is available for WordPress versions 6.0 to 6.4.2 and Gravity Forms versions 2.3 to 2.8.0, in the following languages: EN & DE
+<a href="https://www.novalnet.de/">Novalnet</a> merchant account is required for processing all international and local payments through this Gravity Forms payment plugin for WordPress. The plugin is available for WordPress versions 6.0 to 6.4.2 and Gravity Forms versions 2.3 to 2.8.1, in the following languages: EN & DE
 
 ## Key features
 
